@@ -47,7 +47,7 @@ const Header = () => {
           </Box>
 
           <IconButton
-            icon={<FontAwesomeIcon icon="fa-solid fa-bars" size="2x"/>}
+            icon={<FontAwesomeIcon icon="fa-solid fa-bars"/>}
             aria-label="Toggle Navigation"
             onClick={() => setIsOpen(!isOpen)}
             display={{ base: "flex", md: "none" }} // Only visible on mobile
